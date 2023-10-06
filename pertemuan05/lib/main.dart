@@ -33,6 +33,11 @@ class MyApp extends StatelessWidget {
 
       // home: ScaffoldWidget(title: 'Flutter Demo Home Page Scalfold'),
 
+      // home: Scaffold(
+      //   appBar: AppBar(title: const Text("Dialog Widget")),
+      //   body: DialogWidget(),
+      // ),
+
       // home: InputSelectionWidget(),
 
       // home: Scaffold(
@@ -87,7 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
             //   'You have pushed the button this many times:',
             // ),
 
-            //Widget Text
+            // Widget Text
             // const MyTextWidget(),
 
             //Widget Image
