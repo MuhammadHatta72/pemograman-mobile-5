@@ -23,12 +23,12 @@
 3. Scaffold Widget
 ![img_4.png](img_4.png)
 4. Dialog Widget
-![img_6.png](img_6.png)
+![img_10.png](img_10.png)
 5. Input dan Selection Widget
-![img_7.png](img_7.png)
+![img_11.png](img_11.png)
 6. Date and Time Pickers
-![img_8.png](img_8.png)
+![img_12.png](img_12.png)
 
 
 ## Hasil Tugas Memisahkan Masing-masing widget
-![img_9.png](img_9.png)
+![img_14.png](img_14.png)
