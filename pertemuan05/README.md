@@ -23,7 +23,7 @@
 3. Scaffold Widget
 ![img_4.png](img_4.png)
 4. Dialog Widget
-![img_10.png](img_10.png)
+![img_15.png](img_15.png)
 5. Input dan Selection Widget
 ![img_11.png](img_11.png)
 6. Date and Time Pickers
