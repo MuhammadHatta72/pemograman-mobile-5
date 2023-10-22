@@ -1,16 +1,13 @@
-# belanja
+# Praktikum 7
+## Layout dan Navigasi
 
-A new Flutter project.
+### Nama : Muhammad Hatta
+### NIM : 2141720021
+### Kelas : TI-3A
 
-## Getting Started
+## Layout
+<img src="assets\images\img1.png" width="50%" height="50%">
 
-This project is a starting point for a Flutter application.
+## Navigasi
+<img src="assets\images\img1.png" width="50%" height="50%">
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
