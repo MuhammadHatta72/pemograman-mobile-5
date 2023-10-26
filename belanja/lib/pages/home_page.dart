@@ -7,8 +7,18 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final List<Item> items = [
-      Item(name: 'Sugar', price: 5000, stock: 10, rating: 4),
-      Item(name: 'Salt', price: 2000, stock: 5, rating: 3),
+      Item(
+          name: 'Sugar',
+          price: 5000,
+          stock: 10,
+          rating: 4
+      ),
+      Item(
+          name: 'Salt',
+          price: 2000,
+          stock: 5,
+          rating: 3
+      ),
     ];
 
     return Scaffold(
