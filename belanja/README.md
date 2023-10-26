@@ -11,3 +11,12 @@
 ## Navigasi
 <img src="assets\images\img1.png" width="50%" height="50%">
 
+
+## Tugas Praktikum 2
+
+### Ubah menjadi tampilan grid view
+<img src="assets\images\viewgrid.png" width="50%" height="50%">
+
+### Implementasi Widget Hero
+<img src="assets\images\detailviewgrid.png" width="50%" height="50%">
+

@@ -62,6 +62,14 @@ flutter:
   assets:
     - assets/images/img1.png
     - assets/images/img2.png
+    - assets/images/ricebecek.jpeg
+    - assets/images/ricecampur.jpeg
+    - assets/images/ricegoreng.jpeg
+    - assets/images/ricekabuli.jpeg
+    - assets/images/ricepecel.jpeg
+    - assets/images/ricerawon.jpeg
+    - assets/images/detailviewgrid.png
+    - assets/images/viewgrid.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
