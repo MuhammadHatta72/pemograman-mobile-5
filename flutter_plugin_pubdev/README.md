@@ -16,4 +16,4 @@
 #### langkah 5, digunakan untuk menambahkan parameter pada Widget AutoSizeText. hal tersebut digunakan untuk mengatur ukuran text sesuai dengan ukuran layar. pada saat pemanggilan widget AutoSizeText, tambahkan parameter maxLines: 2, dan overflow: TextOverflow.ellipsis.
 
 ### Hasil Praktikum
-<img src="assets/ss/install_plugin.png" width="50%">
+<img src="assets/ss/praktikum1.png" width="50%">
