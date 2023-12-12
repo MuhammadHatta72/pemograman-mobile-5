@@ -1,21 +1,6 @@
 # Pertemuan 13
 # Praktikum 1: Mengunduh Data dari Web Service (API)
 
-**1. Buat Project Baru<br>**
-Buatlah sebuah project flutter baru dengan nama **books** di folder **src week-12** repository GitHub Anda. Kemudian Tambahkan dependensi `http` dengan mengetik perintah berikut di terminal.
-
-```flutter
-   flutter pub add http
-```
-
-**2. Cek file pubspec.yaml<br>**
-Jika berhasil install plugin, pastikan plugin `http` telah ada di file `pubspec` ini seperti berikut.
-
-![Alt text](image.png)
-
-**3. Buka file main.dart<br>**
-Ketiklah kode seperti berikut ini.
-
 **Soal 1**<br>
 Tambahkan nama panggilan Anda pada `title app` sebagai identitas hasil pekerjaan Anda.
 
@@ -80,38 +65,21 @@ class _FuturePageState extends State<FuturePage> {
 
 ```
 
-**4. Tambah method getData()<br>**
-Tambahkan method ini ke dalam `class_FuturePageState` yang berguna untuk mengambil data dari API Google Books.
-
-```dart
-Future<Response> getData() async {
-    const authority = 'www.googleapis.com';
-    const Path = '/books/v1/volumes/omd3EAAAQBAJ';
-    Uri url = Uri.https(authority, Path);
-    return http.get(url);
-}
-```
+<img src="assets\images\soal1.png" width="50%" height="50%">
+<br>
 
 **Soal 2**
 
 - Carilah judul buku favorit Anda di Google Books, lalu ganti ID buku pada variabel path di kode tersebut
-  ![Alt text](image-1.png)
+  <img src="assets\images\soal2a.png" width="50%" height="50%">
+  <br>
 - Kemudian cobalah akses di browser URI tersebut dengan lengkap seperti ini. Jika menampilkan data JSON, maka Anda telah berhasil.
-  ![Alt text](image-2.png)
-
-**5. Tambah kode di ElevatedButton<br>**
-Tambahkan kode pada `onPressed` di `ElevatedButton` seperti berikut.
+  <img src="assets\images\soal2b.png" width="50%" height="50%">
+  <br>
 
 **Soal 3**
-
-- Jelaskan maksud kode langkah 5 tersebut terkait `substring` dan `catchError`!<br>
-  **Jawab:<br>**
-    - `.catchError((_) {...})`: pada code diatas akan dieksekusi jika terjadi kesalahan saat proses pengambilan data. Pada contoh ini, kita mengatur teks yang akan ditampilkan menjadi 'An error occurred!' apabila terjadi kesalahan.
-    - `substring()`: pada code diatas digunakan untuk membatasi panjang karakter yang ditampilkan pada layar. Pada contoh ini, substring mengambil karakter pertama sampai karakter ke-450 dari data yang telah diterima. Hal ini dilakukan agar teks yang ditampilkan pada layar tidak terlalu panjang dan mudah dibaca oleh pengguna.
-- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 3".
-  <img src="flutter_01.png" width=50%>
-
----
+<img src="assets\images\soal3.png" width="50%" height="50%">
+<br>
 
 # Praktikum 2: Menggunakan await/async untuk menghindari callbacks
 
@@ -170,10 +138,6 @@ ElevatedButton(
   },
 ),
 ```
-
-**4. Run<br>**
-Akhirnya, **run** atau tekan **F5** jika aplikasi belum running. Maka Anda akan melihat seperti gambar berikut, hasil angka 6 akan tampil setelah delay 9 detik.<br>
-<img src="flutter_02.png" width=50%>
 
 **Soal 4**
 
