@@ -1,6 +1,6 @@
 # Pertemuan 13
-# Praktikum 1: Mengunduh Data dari Web Service (API)
 
+# Praktikum 1: Mengunduh Data dari Web Service (API)
 **Soal 1**<br>
 Tambahkan nama panggilan Anda pada `title app` sebagai identitas hasil pekerjaan Anda.
 
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Future demo Baha', #menambahkan nama pada title
+      title: 'Future demo Hatta', #menambahkan nama pada title
       theme: ThemeData(
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity),
@@ -187,7 +187,8 @@ Fungsi `count()` menggunakan Future dan async-await untuk menjalankan proses sec
 Setelah itu, fungsi memanggil returnOneAsync(), returnTwoAsync(), dan returnThreeAsync() secara asynchronous menggunakan await. Hal ini berarti bahwa proses di bawah ini tidak akan memblokir proses utama, yang mengartikan bahwa aplikasi dapat melanjutkan eksekusi proses lainnya sementara proses ini berjalan.
 
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 4".
-  <img src="soal 4.gif" width=50%>
+  <img src="assets\images\soal4.png" width="50%" height="50%">
+  <br>
 
 ---
 
@@ -221,12 +222,7 @@ Future calculate() async {
 **3. Ganti isi kode onPressed()<br>**
 Tambahkan kode berikut pada fungsi `onPressed()`. Kode sebelumnya bisa Anda comment.
 
-**4. Run<br>**
-Terakhir, **run** atau tekan **F5** untuk melihat hasilnya jika memang belum running. Bisa juga lakukan **hot restart** jika aplikasi sudah running. Maka hasilnya akan seperti gambar berikut ini. Setelah 5 detik, maka angka 42 akan tampil.<br>
-<img src="flutter_03.png" width=50%>
-
 **Soal 5**
-
 - Jelaskan maksud kode langkah 2 tersebut!<br>
   Jawab:<br>
   Fungsi `getNumber()` menggunakan Future dan async-await untuk menjalankan proses secara asynchronous. Fungsi ini dimulai dengan menginisialisasi objek Completer dengan data tipe integer.<br><br>
@@ -264,7 +260,13 @@ getNumber().then((value) {
 });
 ```
 
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 6".
+  <img src="assets\images\soal5.png" width="50%" height="50%">
+  <br>
+
 **Soal 6**
+<img src="assets\images\soal6.png" width="50%" height="50%">
+<br>
 
 - Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut!<br>
   **Jawab<br>**
@@ -298,6 +300,7 @@ getNumber().then((value) {
   ```
 
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 6".
-  <img src="soal 6.gif" width=50%>
+  <img src="assets\images\soal6.png" width="50%" height="50%">
+  <br>
 
 # Praktikum 4: Memanggil Future secara paralel
